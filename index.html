@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yaning Yang - Homepage</title>
+   <style>
+    #mapContainer {
+      width: 1000px;
+      height: 600px;
+    }
+  </style>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+			
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+	
+
+	
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Yaning Yang" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Yaning Yang</h1>
+
+          <p class="title">Homepage</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:yangyn@hnu.edu.cn" class="contact-link">yangyn@hnu.edu.cn</a>
+			  <a href="mailto:yangyn415@gmail.com" class="contact-link">yangyn415@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+86 131****2182</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">April 15, 1993</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Xiangtan, Hunan, China</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+		
+			<!--
+			<div class="button-box">
+				<button class="transLanguage" id="en" style="float:left;color: #2222AA">
+					<span>English</span>
+				</button>
+			</div>
+			<div>
+				<button class="transLanguage" id="zh", style="float:right;color: #2222AA">
+					<span>简体中文</span>
+				</button>
+			</div>
+			 -->
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+	  <button class="form-btn" type="submit" disabled data-form-btn>
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+			<p>
+				我是。
+			</p>
+
+          <p>
+            我的工作是
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-hpc.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">高性能计算</h4>
+
+                <p class="service-item-text">
+                  大规模并行计算框架和并行程序优化，包括同构多核（Homogeneous multi-core）和异构众核（Heterogeneous many-core，如 NVIDIA GPU、国产MT-3000 CPU）。
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-bioinformatics.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">计算基因组学</h4>
+
+                <p class="service-item-text">
+                  基于 High-throughput sequencing、Single-molecule real-time(Pacific Biosciences、Oxford Nanopore) 的序列比对、结构变异检测、变异致病性预测等。
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-transcriptome.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">转录组学</h4>
+
+                <p class="service-item-text">
+                  基因表达谱的聚类、分类，单细胞转录组测序（single-cell RNA sequencing，scRNA-seq）数据分析。
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-multiomics.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">多组学整合分析</h4>
+
+                <p class="service-item-text">
+                  对特定疾病或组织的基因组、转录组、蛋白组、代谢组等多个层次的组学数据，结合机器学习对其进行相关性分析。
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Team</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="zhangsan" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>张三</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    张三张三
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="lisi" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>李四</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    李四李四
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>王五</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    王五王五
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>赵六</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    赵六赵六
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="zhangsan" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>张三</h4>
+
+              <time datetime="2023-08-12">12 Aug, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                  张三张三
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+		
+		
+		<section class="about-text">
+			<h3 class="h3 about-text-title">Course</h3>
+			<div class="separator"></div>
+			<dl style="margin-bottom:0px;">
+				<dt><b>HTML</b></dt>
+				<dd style="margin:auto auto 10px 0px;">HTML 是一种专门用来开发网页的标记语言。</dd>
+				<dt><b>CSS</b></dt>
+				<dd style="margin:auto auto 10px 0px;">CSS 层叠样式表可以控制 HTML 文档的显示样式，用来美化网页。</dd>
+				<dt><b>JavaScript</b></dt>
+				<dd style="margin:auto auto 10px 0px;">JavaScript 简称 JS，是一种用来开发网站（包括前端和后台）的脚本编程语言。</dd>
+			</dl>
+        </section>
+		
+		
+      </article>
+
+		
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">湖南大学</h4>
+
+              <span>2018 — 2023</span>
+
+              <p class="timeline-text">
+                计算机科学与技术，工学博士
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">湖南大学</h4>
+
+              <span>2016 — 2018</span>
+
+              <p class="timeline-text">
+                计算机科学与技术，硕士（2018年转博）
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">湖南科技大学</h4>
+
+              <span>2012 — 2016</span>
+
+              <p class="timeline-text">
+                网络工程，工学学士
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+				<li class="timeline-item">
+
+				  <h4 class="h4 timeline-item-title">XXX XXX XXX</h4>
+
+				  <span>2023 — Present</span>
+
+				  <p class="timeline-text">
+					Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+					molestias
+					exceptur.
+				  </p>
+
+				</li>
+			
+			<!--
+				<li class="timeline-item">
+
+				  <h4 class="h4 timeline-item-title">Art director</h4>
+
+				  <span>2013 — 2015</span>
+
+				  <p class="timeline-text">
+					Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+					quas molestias
+					exceptur.
+				  </p>
+
+				</li>
+
+				<li class="timeline-item">
+
+				  <h4 class="h4 timeline-item-title">Web designer</h4>
+
+				  <span>2010 — 2013</span>
+
+				  <p class="timeline-text">
+					Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+					quas molestias
+					exceptur.
+				  </p>
+
+				</li>
+			-->
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Research Interest</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Parallel and Distributed Processing</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Sequence Alignment</h5>
+                <data value="70">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Genome Structural Variation Detection</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Multi-omics integration analysis</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+<!--
+		<section class="about-text">
+			<h3 class="h3 about-text-title">Course</h3>
+			<div class="separator"></div>
+			<dl style="margin-bottom:0px;">
+				<dt><b>HTML</b></dt>
+				<dd style="margin:auto auto 10px 0px;">HTML 是一种专门用来开发网页的标记语言。</dd>
+				<dt><b>CSS</b></dt>
+				<dd style="margin:auto auto 10px 0px;">CSS 层叠样式表可以控制 HTML 文档的显示样式，用来美化网页。</dd>
+				<dt><b>JavaScript</b></dt>
+				<dd style="margin:auto auto 10px 0px;">JavaScript 简称 JS，是一种用来开发网站（包括前端和后台）的脚本编程语言。</dd>
+			</dl>
+        </section>
+	  
+	  -->
+	  
+
+      <!--
+        - #Research 
+      -->
+
+      <article class="research" data-page="research">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+		
+		<section class="about-text">
+			<h3 class="h3 about-text-title">科研项目</h3>
+			<div class="newseparator"></div>
+			<ul class="research-projects">
+			
+			  <li>
+				<strong>科技部重点研发计划</strong><br>
+				精准医学大数据的有效挖掘与关键信息技术研发-课题5高通量生物医学数据高效算法与并行计算，2018YFC0910405，2018/06-2020/12（参与）
+			  </li>
+			  
+			  <div class="newseparator"></div>
+			  
+			  <li>
+				<strong>国家自然科学基金联合重点项目</strong><br>
+				面向复杂环境的边缘计算支撑关键技术，U19A2067，2020/01-2023/12（参与）
+			  </li>
+			  
+			  <div class="newseparator"></div>
+			  
+			  <li>
+				<strong>国家自然科学基金面上项目</strong><br>
+				面向大规模异构体系结构的生物医药大数据并行算法及优化关键技术研究，61772543，2018/01-2021/12（参与）
+			  </li>
+			  <div class="newseparator"></div>
+			</ul>
+		</section>
+		<div class="separator"></div>
+		
+        <section class="projects">
+			<h3 class="h3 about-text-title">News</h3>
+			<div class="newseparator"></div>
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>全部</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>论文动态</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>获奖</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>学术活动</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>全部</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>论文动态</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>获奖</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>学术活动</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+		
+			  <li class="project-item  active" data-filter-item data-category="论文动态">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/naturemachine.jpg" alt="drugdiscovery" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Multitask joint strategies of self-supervised representation learning on biomedical networks for drug discovery</h3>
+
+                <p class="project-category">论文动态</p>
+
+              </a>
+            </li>
+		
+            <li class="project-item  active" data-filter-item data-category="论文动态">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/svpath.jpeg" alt="svpath" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SVPath: an accurate pipeline for predicting the pathogenicity of human exon structural variants</h3>
+
+                <p class="project-category">论文动态</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="论文动态">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/BioERP.jpeg" alt="BioERP" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BioERP: biomedical heterogeneous network-based self-supervised representation learning approach for entity relationship predictions</h3>
+
+                <p class="project-category">论文动态</p>
+
+              </a>
+            </li>
+			
+			<li class="project-item  active" data-filter-item data-category="论文动态">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/parapindel.png" alt="ParaPindel" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ParaPindel: a scalable coordinated parallel detection framework for human genome-wide structural variation</h3>
+
+                <p class="project-category">论文动态</p>
+
+              </a>
+            </li>
+			
+
+            <li class="project-item  active" data-filter-item data-category="获奖">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">XXX XXX XXX </h3>
+
+                <p class="project-category">获奖</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="学术活动">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">xxx yyy</h3>
+
+                <p class="project-category">学术活动</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+	</article>
+
+      
+
+
+
+
+
+      <!--
+        - #Publications
+      -->
+	  
+		
+	 <article class="publications" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+		
+		<section class="about-text">
+			<h3 class="h3 about-text-title">论文</h3>
+			<div class="newseparator"></div>
+		
+		 <ol class="publication-list" style="text-align: justify;">
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Wang, X., Cheng, Y., Yang, Y., Yu, Y., Li, F., & Peng, S. (2023). Multitask joint strategies of self-supervised representation learning on biomedical networks for drug discovery. Nature Machine Intelligence, 5(4), 445-456.
+			  <a href="https://www.nature.com/articles/s42256-023-00640-6" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Xiang, W., Cui, Y., Yang, Y., Zhang, A., Ji, B., & Peng, S. (2022, December). MSVF: Multi-task Structure Variation Filter with Transfer Learning in High-throughput Sequencing. In 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 293-296). IEEE.
+			  <a href="https://ieeexplore.ieee.org/document/9995307" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Xin, B., Yang, Y., Xie, X., Shang, J., Liu, Z., & Peng, S. (2022). Detecting and Classifying Nuclei Using Multi-Scale Fully Convolutional Network. Journal of Computational Biology, 29(10), 1095-1103.
+			  <a href="https://www.liebertpub.com/doi/abs/10.1089/cmb.2022.0111" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Yang, Y., Wang, X., Zhou, D., Wei, D. Q., & Peng, S. (2022). SVPath: an accurate pipeline for predicting the pathogenicity of human exon structural variants. Briefings in Bioinformatics, 23(2), bbac014.
+			  <a href="https://academic.oup.com/bib/article/23/2/bbac014/6531897" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Wang, X., Yang, Y., Li, K., Li, W., Li, F., & Peng, S. (2021). BioERP: biomedical heterogeneous network-based self-supervised representation learning approach for entity relationship predictions. Bioinformatics, 37(24), 4793-4800.
+			  <a href="https://academic.oup.com/bioinformatics/article/37/24/4793/6332000" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Yang, Y., Wang, X., Xu, Y., Yang, C., Jiang, B., & Peng, S. (2021, December). ParaPindel: a scalable coordinated parallel detection framework for human genome-wide structural variation. In 2021 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 574-579). IEEE.
+			  <a href="https://ieeexplore.ieee.org/document/9669141" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Peng, S., Huang, H., Cheng, M., Yang, Y., & Li, F. (2021, March). Efficiently recognition of vaginal micro-ecological environment based on Convolutional Neural Network. In 2020 IEEE International Conference on E-health Networking, Application & Services (HEALTHCOM) (pp. 1-6). IEEE.
+			  <a href="https://ieeexplore.ieee.org/document/9399040" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Peng, S., Zhang, L., Yang, Y., Liu, W., Li, F., Hong, H., ... & Wang, S. (2021, March). A deep metric learning algorithm for similarity measure of the gene expression profile. In 2020 IEEE International Conference on E-health Networking, Application & Services (HEALTHCOM) (pp. 1-6). IEEE.
+			  <a href="https://ieeexplore.ieee.org/document/9398919" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Xin, B., Yang, Y., Wei, D., & Peng, S. (2021). CFCN: A Multi-scale Fully Convolutional Network with Dilated Convolution for Nuclei Classification and Localization. In Bioinformatics Research and Applications: 17th International Symposium, ISBRA 2021, Shenzhen, China, November 26–28, 2021, Proceedings 17 (pp. 314-323). Springer International Publishing.
+			  <a href="https://link.springer.com/chapter/10.1007/978-3-030-91415-8_27" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Wang, X., Yang, Y., Liao, X., Li, L., Li, F., & Peng, S. (2020). selfRL: Two-Level Self-Supervised Transformer Representation Learning for Link Prediction of Heterogeneous Biomedical Networks. bioRxiv, 2020-10.
+			  <a href="https://www.biorxiv.org/content/10.1101/2020.10.20.347153v1.abstract" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Yang, Y., Wang, X., & Peng, S. (2020, September). A Dynamic Protection Mechanism for GPU Memory Overflow. In IFIP International Conference on Network and Parallel Computing (pp. 30-40). Cham: Springer International Publishing.
+			  <a href="https://link.springer.com/chapter/10.1007/978-3-030-79478-1_3" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Sun, Z., Peng, S., Yang, Y., Wang, X., & Li, F. (2019, November). A general fine-tuned transfer learning model for predicting clinical task acrossing diverse EHRs datasets. In 2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) (pp. 490-495). IEEE.
+			  <a href="https://ieeexplore.ieee.org/document/8983098" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">Peng, S., Yang, Y., Liu, W., Li, F., & Liao, X. (2019). Discriminant projection shared dictionary learning for classification of tumors using gene expression data. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 18(4), 1464-1473.
+			  <a href="https://ieeexplore.ieee.org/document/8886360" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			
+			<!--
+			<li>
+			  <span class="publication-index"></span>
+			  <div class="publication-title">标题
+			  <a href="链接" class="publication-badge" style="color: #00FF00;" target="_blank">[paper]</a> </div>
+			</li>
+			-->
+			
+		  </ol>
+		  </section>
+		  
+		  <section class="about-text">
+			<h3 class="h3 about-text-title">专利</h3>
+			<div class="newseparator"></div>
+			<ol class="patent-list" style="text-align: justify;">
+				<li>
+				  <span class="patent-index"></span>
+				  <div class="patent-title">一种基于图属性神经网络的药物与靶标预测方法，CN115440297A </div>
+				</li>
+				
+				<li>
+				  <span class="patent-index"></span>
+				  <div class="patent-title">一种基于多通路图卷积神经网络的药物靶标预测方法，CN113053457B </div>
+				</li>
+				
+				<li>
+				  <span class="patent-index"></span>
+				  <div class="patent-title">一种基于深度学习的基因表达谱距离度量方法，CN110033041B </div>
+				</li>
+				
+				<li>
+				  <span class="patent-index"></span>
+				  <div class="patent-title">一种基于卷积神经网络的阴道病理图像分类方法，CN110136113B </div>
+				</li>
+				
+				<li>
+				  <span class="patent-index"></span>
+				  <div class="patent-title">一种基于网络表征的抗新冠炎症药物发现方法，CN112309505B </div>
+				</li>		
+			</ol>
+		  </section>
+		 
+	</article>
+	
+	<script>
+	  // 获取所有列表项
+	  const listItemElements = document.querySelectorAll('.publication-list li');
+
+	  // 为每个列表项设置序号
+	  listItemElements.forEach((item, index) => {
+		const indexElement = item.querySelector('.publication-index');
+		indexElement.textContent = `${listItemElements.length - index}. `;
+	  });
+	</script>
+	
+	<script>
+	  const patentItemElements = document.querySelectorAll('.patent-list li');
+	  patentItemElements.forEach((item, index) => {
+		const patentIndexElement = item.querySelector('.patent-index');
+		patentIndexElement.textContent = `${patentItemElements.length - index}. `;
+	  });
+	</script>
+	
+	
+	<!--
+	<script>
+	  // 获取所有具有 publication-link 类的链接元素
+	  const publicationLinks = document.getElementsByClassName('publication-link');
+
+	  // 遍历链接元素，并为每个元素添加序号
+	  for (let i = 0; i < publicationLinks.length; i++) {
+		const link = publicationLinks[i];
+		const index = publicationLinks.length - i;
+		const indexElement = document.createElement('span');
+		indexElement.classList.add('publication-index');
+		indexElement.textContent = '[' + index + '] ';
+		link.parentNode.insertBefore(indexElement, link);
+	  }
+	</script>
+	-->
+		
+	<!--
+      <article class="publications" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+	  -->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <div id="mapContainer" width="1000px" height="600px"></div>
+		  <script src="https://webapi.amap.com/maps?v=1.4.15&key=" + apiKey></script>
+		    <script>
+				var map = new AMap.Map('mapContainer', {
+				  center: [112.859542,27.882205],
+				  zoom: 17,
+				  viewMode: '3D',
+				  pitch: 60,  // 设置俯仰角为60度，增加视角的陡峭程度
+				  rotation: -45  // 设置旋转角为-45度，改变地图的旋转方向
+				});
+				var marker = new AMap.Marker({
+					position: [112.859542,27.882205],
+					map: map,
+					title: '湘潭大学工科楼',
+					icon: 'https://webapi.amap.com/theme/v1.3/markers/n/mark_r.png'
+				});
+
+				// 调整相机位置和朝向
+				var cameraPosition = map.getCameraPosition();  // 获取当前相机位置和朝向
+				cameraPosition.zoom = 18;  // 设置缩放级别
+				cameraPosition.tilt = 65;  // 设置相机的倾斜角度
+				cameraPosition.rotation = 30;  // 设置相机的旋转角度
+				map.setCameraPosition(cameraPosition);  // 更新相机位置和朝向
+			  </script>
+        </section>
+
+		
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+	
+  -->
+  
+  <script src="./assets/js/script.js"></script>
+  <script src="./apikey.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
