@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publication</title>
+    <style>
+      #mapContainer {
+        width: 1000px;
+        height: 600px;
+      }
+    </style>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="../../assets/images/icons/publication-icon.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="../../assets/images/team/my-avatar.png"
+              alt="Yaning Yang"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Yaning Yang</h1>
+
+            <p class="title">Homepage</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:yangyn@hnu.edu.cn" class="contact-link"
+                  >yangyn@hnu.edu.cn</a
+                >
+                <a href="mailto:yangyn415@gmail.com" class="contact-link"
+                  >yangyn415@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+86 131****2182</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">April 15, 1993</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Xiangtan, Hunan, China</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+	  <button class="form-btn" type="submit" disabled data-form-btn>
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <!--
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link onclick="history.back()">Back</button>
+          </li>
+        -->
+            <li>
+              <button
+                class="navbar-link active"
+                data-nav-link
+                onclick="goBack()"
+              >
+                Back
+              </button>
+            </li>
+          </ul>
+
+          <script>
+            function goBack() {
+              window.history.back();
+            }
+          </script>
+        </nav>
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">Publication</h2>
+          </header>
+
+          <section class="about-text">
+            <h3 class="h3 about-text-title">
+              BioERP: biomedical heterogeneous network-based self-supervised
+              representation learning approach for entity relationship
+              predictions
+            </h3>
+            <div class="newseparator"></div>
+            <h4 class="h4 about-text-title">Abstract</h4>
+            <p style="text-align: justify">
+              Predicting entity relationship can greatly benefit important
+              biomedical problems. Recently, a large amount of biomedical
+              heterogeneous networks (BioHNs) are generated and offer
+              opportunities for developing network-based learning approaches to
+              predict relationships among entities. However, current researches
+              slightly explored BioHNs-based self-supervised representation
+              learning methods, and are hard to simultaneously capturing local-
+              and global-level association information among entities.
+            </p>
+            <p style="text-align: justify">
+              In this study, we propose a BioHN-based self-supervised
+              representation learning approach for entity relationship
+              predictions, termed BioERP. A self-supervised meta path detection
+              mechanism is proposed to train a deep Transformer encoder model
+              that can capture the global structure and semantic feature in
+              BioHNs. Meanwhile, a biomedical entity mask learning strategy is
+              designed to reflect local associations of vertices. Finally, the
+              representations from different task models are concatenated to
+              generate two-level representation vectors for predicting
+              relationships among entities. The results on eight datasets show
+              BioERP outperforms 30 state-of-the-art methods. In particular,
+              BioERP reveals great performance with results close to 1 in terms
+              of AUC and AUPR on the drug–target interaction predictions. In
+              summary, BioERP is a promising bio-entity relationship prediction
+              approach.
+            </p>
+
+            <div class="newseparator"></div>
+            <img
+              src="./images/bioERP.jpeg"
+              alt="incident"
+              width="100%"
+              class="center"
+            />
+
+            <p></p>
+            <p></p>
+            <img
+              src="./images/bioERP2.jpeg"
+              alt="incident"
+              width="100%"
+              class="center"
+            />
+            <div class="newseparator"></div>
+            <h4 class="h4 about-text-title">Citation</h4>
+            <div class="newseparator"></div>
+            <p style="text-align: justify">
+              Wang X, Yang Y, Li K, et al. BioERP: biomedical heterogeneous
+              network-based self-supervised representation learning approach for
+              entity relationship predictions[J]. Bioinformatics, 2021, 37(24):
+              4793-4800.
+            </p>
+
+            <div class="box-btn">
+              <a
+                class="btn-link"
+                href="https://academic.oup.com/bioinformatics/article/37/24/4793/6332000"
+                target="_blank"
+                >Paper</a
+              >
+              <a
+                class="btn-link"
+                href="https://github.com/pengsl-lab/BioERP"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+	
+  -->
+
+    <script src="../../assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

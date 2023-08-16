@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publication</title>
+    <style>
+      #mapContainer {
+        width: 1000px;
+        height: 600px;
+      }
+    </style>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="../../assets/images/icons/publication-icon.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="../../assets/images/team/my-avatar.png"
+              alt="Yaning Yang"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Yaning Yang</h1>
+
+            <p class="title">Homepage</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:yangyn@hnu.edu.cn" class="contact-link"
+                  >yangyn@hnu.edu.cn</a
+                >
+                <a href="mailto:yangyn415@gmail.com" class="contact-link"
+                  >yangyn415@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+86 131****2182</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">April 15, 1993</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Xiangtan, Hunan, China</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+	  <button class="form-btn" type="submit" disabled data-form-btn>
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <!--
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link onclick="history.back()">Back</button>
+          </li>
+        -->
+            <li>
+              <button
+                class="navbar-link active"
+                data-nav-link
+                onclick="window.location.href='https://yaningyang.github.io/'"
+              >
+                Back
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">Publication</h2>
+          </header>
+
+          <section class="about-text">
+            <h3 class="h3 about-text-title">
+              ParaPindel: a scalable coordinated parallel detection framework
+              for human genome-wide structural variation
+            </h3>
+            <div class="newseparator"></div>
+            <h4 class="h4 about-text-title">Abstract</h4>
+            <p style="text-align: justify">
+              Detecting the existence of variation from massive human genome
+              data, and determining the breakpoints and types of variations is
+              essential for analyzing structural variation. Pindel, an accurate
+              detection tool based on pattern growth approach, is commonly used
+              for discovering indels and other types of structural variations
+              from next-generation sequencing data. The explosive growth of
+              sequencing data poses new challenges to current implementation of
+              Pindel.
+            </p>
+            <p style="text-align: justify">
+              Here, we proposed ParaPindel, an optimized version of Pindel that
+              utilizes distributed multiprocess, for efficient large-scale
+              detection of structural variation for human whole-genome
+              sequencing data. ParaPindel divides the chromosome into multiple
+              small windows with a fixed-length window size, so as to realize
+              the parallel detection between different windows and different
+              chromosomes. A crosswindow with a smaller length is introduced to
+              cope with possible structural variations at the edge of the
+              window.
+            </p>
+            <p style="text-align: justify">
+              The experimental results show that ParaPindel shortens the time to
+              detect an individual’s genome-wide structural variation from 186
+              hours to 33 minutes under the premise that the detection results
+              are basically consistent. Employing 256 processes on 128 nodes on
+              the TH-IHN supercomputer, the speedup ratio has reached 163 times,
+              and the parallel efficiency has reached 69.74%.
+            </p>
+
+            <div class="newseparator"></div>
+            <img
+              src="./images/parapindeloverallDesign.jpg"
+              alt="incident"
+              width="100%"
+              class="center"
+            />
+            <p></p>
+            <img
+              src="./images/parapindelreadsGroup.jpg"
+              alt="incident"
+              width="100%"
+              class="center"
+            />
+            <p></p>
+            <img
+              src="./images/parapindelnewDesign.jpg"
+              alt="incident"
+              width="100%"
+              class="center"
+            />
+            <p></p>
+            <img
+              src="./images/parapindelspeedup.jpg"
+              alt="incident"
+              width="100%"
+              class="center"
+            />
+            <p></p>
+            <div class="newseparator"></div>
+            <h4 class="h4 about-text-title">Citation</h4>
+            <div class="newseparator"></div>
+            <p style="text-align: justify">
+              Yang Y, Wang X, Xu Y, et al. ParaPindel: a scalable coordinated
+              parallel detection framework for human genome-wide structural
+              variation[C]//2021 IEEE International Conference on Bioinformatics
+              and Biomedicine (BIBM). IEEE, 2021: 574-579.
+            </p>
+
+            <div class="box-btn">
+              <a
+                class="btn-link"
+                href="https://ieeexplore.ieee.org/abstract/document/9669141"
+                target="_blank"
+                >Paper</a
+              >
+              <a
+                class="btn-link"
+                href="https://github.com/pengsl-lab/ParaPindel"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+	
+  -->
+
+    <script src="../../assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

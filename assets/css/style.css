@@ -1159,6 +1159,14 @@ main {
   margin-bottom: 25px;
 }
 
+.input-wrapper-emailsubject {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+
 .form-input {
   color: var(--white-2);
   font-size: var(--fs-6);
@@ -1175,7 +1183,7 @@ main {
 
 textarea.form-input {
   min-height: 100px;
-  height: 120px;
+  height: 200px;
   max-height: 200px;
   resize: vertical;
   margin-bottom: 25px;
@@ -1944,7 +1952,21 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+.box-btn {
+  display: flex; gap: 10px;
+}
 
+.icon-box ion-icon { --ionicon-stroke-width: 35px; }
+
+.btn-link {
+  color: black;
+  font-size: 12px;
+  background: var(--text-gradient-yellow);
+  width: fit-content;
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
 
 <style>
   .publication-list {

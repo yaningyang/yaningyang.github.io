@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publication</title>
+    <style>
+      #mapContainer {
+        width: 1000px;
+        height: 600px;
+      }
+    </style>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="../../assets/images/icons/publication-icon.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="../../assets/images/team/my-avatar.png"
+              alt="Yaning Yang"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Yaning Yang</h1>
+
+            <p class="title">Homepage</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:yangyn@hnu.edu.cn" class="contact-link"
+                  >yangyn@hnu.edu.cn</a
+                >
+                <a href="mailto:yangyn415@gmail.com" class="contact-link"
+                  >yangyn415@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+86 131****2182</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">April 15, 1993</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Xiangtan, Hunan, China</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+	  <button class="form-btn" type="submit" disabled data-form-btn>
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <!--
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link onclick="history.back()">Back</button>
+          </li>
+        -->
+            <li>
+              <button
+                class="navbar-link active"
+                data-nav-link
+                onclick="window.location.href='https://yaningyang.github.io/'"
+              >
+                Back
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">Publication</h2>
+          </header>
+
+          <section class="about-text">
+            <h3 class="h3 about-text-title">
+              Multitask joint strategies of self-supervised representation
+              learning on biomedical networks for drug discover
+            </h3>
+            <div class="newseparator"></div>
+            <h4 class="h4 about-text-title">Abstract</h4>
+            <p style="text-align: justify">
+              Self-supervised representation learning (SSL) on biomedical
+              networks provides new opportunities for drug discovery; however,
+              effectively combining multiple SSL models is still challenging and
+              has been rarely explored. We therefore propose multitask joint
+              strategies of SSL on biomedical networks for drug discovery, named
+              MSSL2drug. We design six basic SSL tasks that are inspired by the
+              knowledge of various modalities, inlcuding structures, semantics
+              and attributes in heterogeneous biomedical networks. Importantly,
+              fifteen combinations of multiple tasks are evaluated using a
+              graph-attention-based multitask adversarial learning framework in
+              two drug discovery scenarios. The results suggest two important
+              findings:
+            </p>
+
+            <p style="text-align: justify">
+              (1) combinations of multimodal tasks achieve better performance
+              than other multitask joint models;
+            </p>
+            <p style="text-align: justify">
+              (2) the local–global combination models yield higher performance
+              than random two-task combinations when there are the same number
+              of modalities. We thus conjecture that the multimodal and
+              local–global combination strategies can be treated as the
+              guideline of multitask SSL for drug discovery.
+            </p>
+            <div class="newseparator"></div>
+            <img
+              src="./images/naturemachine2023.jpg"
+              alt="incident"
+              width="100%"
+              class="center"
+            />
+
+            <div class="newseparator"></div>
+            <h4 class="h4 about-text-title">Citation</h4>
+            <div class="newseparator"></div>
+            <p style="text-align: justify">
+              Wang X, Cheng Y, Yang Y, et al. Multitask joint strategies of
+              self-supervised representation learning on biomedical networks for
+              drug discovery[J]. Nature Machine Intelligence, 2023, 5(4):
+              445-456.
+            </p>
+
+            <div class="box-btn">
+              <a
+                class="btn-link"
+                href="https://www.nature.com/articles/s42256-023-00640-6"
+                target="_blank"
+                >Paper</a
+              >
+              <a
+                class="btn-link"
+                href="https://github.com/pengsl-lab/MSSL"
+                target="_blank"
+                >Github</a
+              >
+            </div>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+	
+  -->
+
+    <script src="../../assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
