@@ -33,7 +33,7 @@ Conference/ Journal Reviewers
 # 🤝 Collaborators
 It’s my pleasure and great honor to work with these talented scholars.
 - [Tong Xiao](https://tongxiao-cs.github.io/), Postdoc Fellow at THU.
-- [Jiawei Wang](https://scholar.google.com.hk/citations?user=ijtp4KIAAAAJ&hl=zh-CN), a joint Ph.D. candidate at HNU and NUS (NEXT lab++).
+- [Jiawei Wang](https://scholar.google.com.hk/citations?user=ijtp4KIAAAAJ&hl=zh-CN), a joint Ph.D. candidate at HNU and NUS ([NEXT++](https://www.nextcenter.org/)).
 - [Yuming Zhao](https://scholar.google.com/citations?user=_wnpdNcAAAAJ&hl=zh-CN), JD AI Lab.
 - [Shaozu Yuan](https://scholar.google.com.hk/citations?user=k_5RuqgAAAAJ&hl=zh-CN), JD AI Lab.
 - [Meihuizi Jia](https://jmhz24.github.io), a joint Ph.D. candidate at BIT and NTU.
