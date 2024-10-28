@@ -8,3 +8,5 @@ My current research interests mainly include：
 -	Natural Language Processing
 -	Multimodal Learning
 -	Large Language Models
+
+I enjoy sharing AI knowledge on the Weixin Official Account '[机器智元](https://mp.weixin.qq.com/s/d5ZurfqOXwIK-2WznGUOUw)' and my personal blog on '[CSDN](https://ainlp.blog.csdn.net/?type=blog)'. 
