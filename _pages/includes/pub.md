@@ -1,5 +1,6 @@
 # 📝 Publications 
 - ``COLING 2025`` [TermDiffuSum: A Term-guided Diffusion Model for Extractive Summarization of Legal Documents](xxx), Xiangyun Dong, Wei Li, **Yuquan Le**, Zhangyue Jiang, Junxi Zhong and Zhong Wang
+- ``计算机科学 2025`` [辅助判决的案情要素关联与证据提取](xxx), 刘衍伦, 肖正, 聂振宇, **乐雨泉**, 李肯立
 - ``TALSP 2024`` [R&sup2;: A Novel Recall & Ranking Framework for Legal Judgment Prediction](https://ieeexplore.ieee.org/abstract/document/10439618/), **Yuquan Le**, Zhe Quan, Jiawei Wang, Da Cao, Kenli Li.
 - ``ESWA 2024`` [Topology-aware Multi-task Learning Framework for Civil Case Judgment Prediction](https://www.sciencedirect.com/science/article/pii/S0957417423026052), **Yuquan Le**, Sheng Xiao, Zheng Xiao, Kenli Li.
 - ``TNNLS 2024`` [Graph Reasoning With Supervised Contrastive Learning for Legal Judgment Prediction](https://ieeexplore.ieee.org/abstract/document/10378955/), Jiawei Wang, **Yuquan Le**, Da Cao, Shaofei Lu, Zhe Quan, Meng Wang. [![](https://img.shields.io/badge/GitHub-white?style=flat&logo=github&logoColor=black&color=white)](https://paperpreview.wixsite.com/grascl)
