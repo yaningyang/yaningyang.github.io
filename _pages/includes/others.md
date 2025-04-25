@@ -16,8 +16,9 @@
 # 📚 Academic Services
 Conference/ Journal Reviewers
 - IEEE/ACM Transactions on Audio, Speech, and Language Processing
-- Neurocomputing
+- Artificial Intelligence Review
 - CAAI Transactions on Artificial Intelligence
+- Neurocomputing
 
 # 🏆 Competitions
 - *2023*, 中国法律智能技术评测CAIL 2023-类案检索赛道 二等奖
