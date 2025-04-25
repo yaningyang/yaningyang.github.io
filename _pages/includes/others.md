@@ -30,10 +30,25 @@ Conference/ Journal Reviewers
 - *2019*, 中国法研杯CAIL 2019-相似案例匹配赛道 三等奖
 - *2015.11*, 第七届全国大学生高等数学竞赛（非数学类）一等奖
 
+# 📚 Patents
+- 模型训练方法、装置及意图识别方法、装置. CN112380861B. (排名1)
+- 意图识别模型的训练方法及装置、意图识别方法及装置. CN112347760B. (排名1)
+- 意图识别模型的训练及意图识别方法、装置、存储介质. CN112364664B. (排名1)
+- 一种基于大型系统拓扑结构的容错节点分配方法. CN107908502B. (排名2)
+- 一种基于词向量的句子相似度比较方法. CN107844608B. (排名2)
+- 针对分离约束背包问题的一种协同的并行邻域搜索方法. CN108009013A (排名3)
+- 获取文本对应的行为信息的方法和装置. CN112579746B. (排名3)
+- 一种确定事件主体的方法和装置. CN111368551B. (排名3)
+- 一种基于元学习的少样本分类方法. CN113535953B. (排名3)
+- 一种意图识别方法、装置及相关设备. CN114220417B. (排名3)
+- 一种基于分布校准的小样本实体关系抽取方法. CN114328921B. (排名3)
+- 一种基于深度学习的药物活性预测方法. CN109033738B. (排名4)
+
 # 🤝 Collaborators
 It’s my pleasure and great honor to work with these talented scholars.
-- [Tong Xiao](https://tongxiao-cs.github.io/), Postdoc Fellow at THU.
-- [Jiawei Wang](https://scholar.google.com.hk/citations?user=ijtp4KIAAAAJ&hl=zh-CN), a joint Ph.D. candidate at HNU and NUS ([NExT++ research center](https://www.nextcenter.org/)).
-- [Yuming Zhao](https://scholar.google.com/citations?user=_wnpdNcAAAAJ&hl=zh-CN), JD AI Lab.
+- [Jiawei Wang](https://scholar.google.com.hk/citations?user=ijtp4KIAAAAJ&hl=zh-CN), Research Fellow at NUS ([NExT++ research center](https://www.nextcenter.org/)).
+- [Tong Xiao](https://tongxiao-cs.github.io/), Research Fellow at THU.
 - [Shaozu Yuan](https://airsyuan.github.io/), JD AI Lab.
+- [Yuming Zhao](https://scholar.google.com/citations?user=_wnpdNcAAAAJ&hl=zh-CN), JD AI Lab.
 - [Meihuizi Jia](https://jmhz24.github.io), a joint Ph.D. candidate at BIT and NTU.
+
