@@ -30,7 +30,7 @@ Conference/ Journal Reviewers
 - *2020*, 中国法研杯CAIL 2020-司法摘要赛道 三等奖. (排名2)
 - *2019*, 中国法研杯CAIL 2019-相似案例匹配赛道 三等奖. (排名3)
 - *2018*, “AIIA”杯-国家电网-电力专业领域词汇挖掘 5st/451. (排名4) 
-- *2018*, "达观杯"文本智能处理挑战赛 季军(4st/3131). . (排名3) 
+- *2018*, "达观杯"文本智能处理挑战赛 季军(4st/3131). (排名3). [![](https://img.shields.io/badge/GitHub-white?style=flat&logo=github&logoColor=black&color=white)](https://github.com/hecongqing/2018-daguan-competition) 
 - *2015*, 第七届全国大学生高等数学竞赛（非数学类）一等奖
 
 # 📚 Patents
