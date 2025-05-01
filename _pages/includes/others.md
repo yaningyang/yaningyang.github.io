@@ -45,6 +45,7 @@ Conference/ Journal Reviewers
 - 一种基于分布校准的小样本实体关系抽取方法. CN114328921B. (排名3)
 - 一种基于深度学习的药物活性预测方法. CN109033738B. (排名4)
 
+<!--
 # 🤝 Collaborators
 It’s my pleasure and great honor to work with these talented scholars.
 - [Jiawei Wang](https://scholar.google.com.hk/citations?user=ijtp4KIAAAAJ&hl=zh-CN), Research Fellow at NUS ([NExT++ research center](https://www.nextcenter.org/)).
@@ -52,4 +53,4 @@ It’s my pleasure and great honor to work with these talented scholars.
 - [Shaozu Yuan](https://airsyuan.github.io/), JD AI Lab.
 - [Yuming Zhao](https://scholar.google.com/citations?user=_wnpdNcAAAAJ&hl=zh-CN), JD AI Lab.
 - [Meihuizi Jia](https://jmhz24.github.io), a joint Ph.D. candidate at BIT and NTU.
-
+-->
