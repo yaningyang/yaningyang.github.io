@@ -16,7 +16,9 @@
 # 📚 Academic Services
 Conference/ Journal Reviewers
 - IEEE/ACM Transactions on Audio, Speech, and Language Processing
+- Expert Systems with Applications
 - Artificial Intelligence Review
+- Engineering Applications of Artificial Intelligence
 - CAAI Transactions on Artificial Intelligence
 - Neurocomputing
 
