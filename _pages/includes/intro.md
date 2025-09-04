@@ -9,4 +9,4 @@ I’ve been lucky to publish papers in journals and conferences like TPDS, Brief
 Research Interests:
 - High-Performance Computing
 - Large Language Models
-- Bioinformatics & Genomics
+- Bioinformatics &amp; Genomics
