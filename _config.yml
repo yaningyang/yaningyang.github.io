@@ -25,7 +25,7 @@ author:
   avatar           : "images/ynyang_profile.jpg"
   bio              : ""
   location         : "Xiangtan, China"
-  employer         :
+  employer         : "Xiangtan University"
   pubmed           : 
   googlescholar    : #"https://scholar.google.com/citations?user=GEVwy4sAAAAJ"
   email            : "ynyang@xtu.edu.cn"
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : ""
+  linkedin         : #""
   dblp             : #"https://dblp.org/pid/220/7267.html"
   orcid            : #"https://orcid.org/0000-0001-6283-9037"
   pinterest        :
