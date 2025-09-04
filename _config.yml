@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yuquan Le (乐雨泉)"
+title                    : "Yaning Yang"
 description              : ""
-repository               : "yuquanle/yuquanle.github.io"
+repository               : "yaningyang/yaningyang.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +21,14 @@ baidu_site_verification  : code-ZxFK3f4pfb
 
 # Site Author
 author:
-  name             : "Yuquan Le (乐雨泉)"
-  avatar           : "images/yyq_profile.jpeg"
+  name             : "Yaning Yang"
+  avatar           : "images/yn_profile.png"
   bio              : ""
-  location         : "Changsha, China"
+  location         : "Xiangtan, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=GEVwy4sAAAAJ"
-  email            : "leyuquan@hnu.edu.cn"
+  googlescholar    : #"https://scholar.google.com/citations?user=GEVwy4sAAAAJ"
+  email            : "ynyang@xtu.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,15 +37,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "yuquanle"
+  github           : "yaningyang"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : ""
-  dblp             : "https://dblp.org/pid/220/7267.html"
-  orcid            : "https://orcid.org/0000-0001-6283-9037"
+  dblp             : #"https://dblp.org/pid/220/7267.html"
+  orcid            : #"https://orcid.org/0000-0001-6283-9037"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
