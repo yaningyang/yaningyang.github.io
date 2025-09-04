@@ -1,5 +1,4 @@
 # 🔥 News
-- *2025.04*: One paper is accepted by ICLR 2025.
-- *2024.11*: One paper is accepted by COLING 2025.
-- *2024.10*: One paper is accepted by ESWA 2025.
+- *2025.06*: One paper is accepted by IEEE Transactions on Parallel and Distributed Systems(CCF A).
+- *2024.11*: One paper is accepted by BIBM 2024 (CCF B).
 
