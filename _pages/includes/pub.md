@@ -1,6 +1,6 @@
 # 📝 Publications 
 
-- ![](https://img.shields.io/badge/2025-C-green)  ***BIBM***. [MSI-GNN: A Graph Neural Network for Pathogenicity Prediction of Microsatellite Insertions], **Yaning Yang**, Yadong Fan, Yue Liu, Liangrui Pan, and Shaoliang Peng. (Accepted as a regular paper)
+- ![](https://img.shields.io/badge/2025-C-green)  ***BIBM***. MSI-GNN: A Graph Neural Network for Pathogenicity Prediction of Microsatellite Insertions, **Yaning Yang**, Yadong Fan, Yue Liu, Liangrui Pan, and Shaoliang Peng. (Accepted as a regular paper)
 
 - ![](https://img.shields.io/badge/2025-J-blue)  ***TPDS***. [Parallel Acceleration of Genome Variation Detection on Multi-zone Heterogeneous System](https://ieeexplore.ieee.org/abstract/document/11045831), **Yaning Yang**, Xiaoqi Wang, Chengqing Li, Shaoliang Peng.
   
